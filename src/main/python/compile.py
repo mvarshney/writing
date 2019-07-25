@@ -41,6 +41,7 @@ def compile(infile, outfile):
     html += "</body></html>"
     codecs.open(outfile, "w", encoding='utf-8').write(html)
 
-compile("docs/saadhak_maanas.txt", "saadhak_maanas.html")
-compile("docs/dohavali2.txt", "dohavali2.html")
-compile("docs/dohavali3.txt", "dohavali3.html")
+compile("docs/saadhak_maanas.txt", "html/saadhak_maanas.html")
+compile("docs/dohavali2.txt", "html/dohavali2.html")
+compile("docs/dohavali3.txt", "html/dohavali3.html")
+compile("docs/dohavali4.txt", "html/dohavali4.html")
