@@ -47,6 +47,7 @@ def compile(infile, outfile):
 
 compile("docs/hindi-gita/chapter1.txt", "html/gita1.html")
 compile("docs/hindi-gita/chapter2.txt", "html/gita2.html")
+compile("docs/hindi-gita/chapter3.txt", "html/gita3.html")
 compile("docs/saadhak_maanas.txt", "html/saadhak_maanas.html")
 compile("docs/dohavali2.txt", "html/dohavali2.html")
 compile("docs/dohavali3.txt", "html/dohavali3.html")
