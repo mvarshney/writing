@@ -1,0 +1,35 @@
+.rst-content pre.literal-block, .rst-content div[class^='highlight'] pre, .rst-content .linenodiv pre, pre {
+    font-family: "Lato","proxima-nova","Helvetica Neue",Arial,sans-serif;
+    font-size: 16px;
+}
+
+.wy-nav-content {
+	padding: 1.618em 0.536em;
+}
+
+li {
+	    font-size: 20px;
+		padding: 5px;
+}
+
+@media screen and (max-width: 768px) 
+{
+.wy-nav-content-wrap .wy-nav-content {
+    padding: 6px;
+}
+}
+
+
+.line-block {
+    font-family: "Lato","proxima-nova","Helvetica Neue",Arial,sans-serif;
+    color: #333;
+    background-color: #fff;
+    overflow: auto;
+    border-width: 0 0 0 2px;
+    border-color: #eee;
+    border-style: solid;
+    padding: 14px 0 14px 20px;
+    padding-right: 0;
+    margin: 20px 0;
+    text-align: center;
+}

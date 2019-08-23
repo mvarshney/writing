@@ -1,0 +1,3 @@
+$(function() {
+	//$(".wy-breadcrumbs").remove()
+});
