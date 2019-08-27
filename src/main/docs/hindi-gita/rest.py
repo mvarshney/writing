@@ -64,6 +64,7 @@ def mark_word(word):
 
 def make_chapter(chnum):
     # making header
+    chname = "%s) %s" % (hindi_numbers[chnum], chapter_names[chnum])
     header = u"""
     .. centered::
     	``~ ॐ श्रीपरमात्मने नमः ~``
@@ -71,9 +72,11 @@ def make_chapter(chnum):
     .. centered::
     	``॥ अथ %s ॥`` 
     
-    %s) %s
+    .. title %s
+    
+    %s
     ----------------------------------------------------------
-    """ % (chapter_numbers[chnum], hindi_numbers[chnum], chapter_names[chnum])
+    """ % (chapter_numbers[chnum], chname, chname)
     
     header = textwrap.dedent(header)
     
