@@ -39,7 +39,9 @@ chapter_numbers = [
     u"तृतीयोऽध्यायः",
     u"चतुर्थोऽध्यायः",
     u"पंचमोऽध्यायः",
-    u"षष्ठोऽध्यायः"
+    u"षष्ठोऽध्यायः",
+    u"सप्तमोऽध्यायः",
+    u"अष्ठमोऽध्यायः"
 ]
 
 chapter_names = [
@@ -49,7 +51,9 @@ chapter_names = [
     u"कर्मयोगः",
     u"ज्ञानकर्मसन्यासयोगः",
     u"कर्मसन्यासयोगः",
-    u"आत्मसंयमयोगः"
+    u"आत्मसंयमयोगः",
+    u"ज्ञानविज्ञानयोगः",
+    u"अक्षरब्रह्मयोगः"
 ]
 
 ROOT = "/Users/mvarshne/Documents/Maneesh/translation/writing/src/main/"
@@ -112,7 +116,7 @@ def make_chapter(chnum):
 
     
 
-for chnum in range(1, 7):
+for chnum in range(1, 8):
     make_chapter(chnum)
     
     
