@@ -116,7 +116,7 @@ def make_chapter(chnum):
 
     
 
-for chnum in range(1, 8):
+for chnum in range(1, 9):
     make_chapter(chnum)
     
     
