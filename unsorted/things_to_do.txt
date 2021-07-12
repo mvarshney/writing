@@ -1,0 +1,53 @@
+1) Analytics Platform
+- Write document. Path to promotion
+
+2) Learn more on A/B testing.
+- This is one of the thing I have some experience in. 
+- Although I have lost touch last few years. Still I can learn that fast enough.
+- This is also related to career. In that sense, I am a data science platform builder.
+
+3) Read the statistics book.
+- All my life I have been interested in statistics. Atleast hypothesis testing.
+- I have read Lies book, Statistics by Cartoon.
+- I think statistics is basics for understanding either data science or machine learning.
+- So in that sense it is helpful for career.
+
+4) A/B testing Simulation
+- For pedagogical purpose
+- A step towards building a reputation in this field. 
+- Simple satisfaction of writing some code.
+
+5) Book on building the metrics platform
+- Blog etc
+
+6) Incremental Computation
+- Only because I can write papers with S Rao. Honestly that is the only reason.
+- Which means the whole point is to write a paper.
+
+--------------------------------------------------------------------------------
+1) Sanskrit
+- Make progress in ramopakhya
+
+2) Natural Language Processing
+- I am not sure here. But it seems I would like this.
+- Spend some initial time here.
+
+3) Investment Research
+
+4) Hoover Dam
+- Golang, Haskell, Rust. Books. Technology. Read source code. Survey Paper.
+- The point is to write some code
+
+5) Chess, Checkers, Go, 
+--------------------------------------------------------------------------------
+
+1) Health
+
+2) Children Studies, books
+
+===============================================================================
+Simjs in Golang
+- Why? I get to write some code. 
+- There is no reason for doing this. Golang is not that important to write the code anew.
+- Neither do I have sufficient time to support this code.
+

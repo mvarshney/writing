@@ -1,0 +1,20 @@
+A simulator to teach A/B testing.
+Defend:
+- These are all R matrix simulations. Basic statistics. Why do you need a simulator.
+- These are all rather trivial.
+
+But who cares.
+What I don't want to do is to treat is as a fun exercise for golang. But why not.
+What i don't want to do is to treat it as a extra work project. But why not.
+
+So there is that.
+What I am blocked on are
+1. Reading more on statistics.
+2. Finish the A/B test book
+3. Read the other two books.
+4. Take the training of TREX
+5. Get the training at Facebook
+6. Get the training at Google
+
+
+

@@ -1,0 +1,25 @@
+How to build a metrics platform.
+
+Chapters
+- Where are metrics used? 
+- Time management (trigger, self heal, backfill)
+- Aggregations
+- Testing to Deployment
+- Other functions: Retention, ACL, Compliance, Metadata
+- Self Serve
+- Managing Change. Reasons for backfill
+- Organization: Domains, buckets, subject areas, 
+- Ownership: reviewers, owners, operational owner
+- Metric tier and priority. Importance vs. Reliability.
+- Platform vs. Personal responsibility
+- Hygiene, lifecycle, duplicates, 
+- Anomalies
+
+
+
+
+** Time: range, window and delay.
+- If the flow is running today, which date partitions are generated. Which partitions of inputs are needed.
+- Which input partitions are needed? Delay and range.
+
+
