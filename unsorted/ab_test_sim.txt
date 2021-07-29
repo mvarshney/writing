@@ -3,18 +3,83 @@ Defend:
 - These are all R matrix simulations. Basic statistics. Why do you need a simulator.
 - These are all rather trivial.
 
-But who cares.
+Analyst page:
+- define metrics, experimentation unit
+- set up experiment
+- view reports
+- report 
+Instructor page:
+- configure users
+
+The context can be one website -- social book store.
+
+https://cxl.com/blog/ab-testing-guide/
+https://cxl.com/blog/ab-testing-statistics/
+
+Scenarios
+- Debug: there was sample size ratio mismatch?
+- Debug: did you have enough power?
+- should you continue the experiment or kill it (negative metric)
+- running A/A tests
+- 
+
+Assignment 2:
+getTreatmentMaker(hash) -> func(id, perc) -> Variant 
+
+UserModel
+ProductModel (includes metrics)
+ExpConfig
+MetricEngine
+ABEngine
+ABReport
+Simulator
+
+student defines expconfig
+teacher defines usermodel and product model
+student runs Simulator
+	Internal: Invokes MetricsEngine, ABStatsEngine
+student sees ABReport
+
+
+ProductModel
+ - variants: Control, Treatment
+ - metrics: Views, Clicks
+
+ExpConfig
+ - traffic to variants
+ - number of days
+ - segments [next stage]
+
+UserModel
+- attributes
+- prob of iterating with product on day i [triggered]
+- rand var for Metric_i
+
+PopulationModel
+- 
+
+given hashId
+given r the % of users in treatment
+getTreatment(userId) -> control, treatment
+
+Assignment 1:
+On user modeling:
+X given N users.
+X given pvisit probabilty of visiting on a day.
+Xgiven puserControl to click on control button
+Xgiven puserTreatment to click on treatment button
+Xgiven getTreatment(userId) -> control, treatment
+Xfind sum(click) for control and treatment
+
+
+---------------------------
 What I don't want to do is to treat is as a fun exercise for golang. But why not.
 What i don't want to do is to treat it as a extra work project. But why not.
 
-So there is that.
 What I am blocked on are
-1. Reading more on statistics.
+xx 1. Reading more on statistics.
 2. Finish the A/B test book
 3. Read the other two books.
-4. Take the training of TREX
+xx 4. Take the training of TREX
 5. Get the training at Facebook
 6. Get the training at Google
-
-
-
